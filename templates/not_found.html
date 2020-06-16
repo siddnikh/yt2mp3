@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% block head %}
+<link rel="stylesheet" href="{{url_for('static', filename = 'css/index.css') }}">
+<title>Page Not Found :(</title>
+{% endblock %}
+
+{% block body %}
+<main class = "container main">
+    <center>
+        <h1>
+            Looks like the url you are trying to visit, doesn't exist!
+        </h1>
+        <h3>
+            If you want to download a YouTube video's MP3 File, type <span>sn.herokuapp.com/mp3</span> right after the "<b>youtube.com</b>" in your URL.
+        </h3>
+    </center>
+</main>
+{% endblock %}

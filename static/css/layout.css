@@ -1,0 +1,86 @@
+body {
+    padding: 0;
+    background-color: #494949;
+  }
+  
+  nav {
+    padding: 0;
+    background-color: black;
+  }
+  
+  .logo {
+    height: 80px;
+    margin-top: 0.2vw;
+    margin-bottom: 0.2vw;
+  }
+  
+  footer {
+    background-color: black;
+    font-size: 1.5vw;
+    font-family: "Raleway", sans-serif;
+    color: white;
+    margin-bottom: 0;
+    padding: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 100%;
+    margin-top: 5vw;
+    position: absolute;
+    bottom: 0;
+  }
+  footer p{
+    font-size: 1.5vw;
+  }
+  
+  .left{
+    float: left;
+    margin: 0;
+  }
+  
+  .right {
+    
+  }
+  
+  @media (max-width: 992px) {
+    .main h1 {
+      font-size: 48px;
+    }
+  
+    .main h2 {
+      font-size: 32px;
+    }
+  
+    .main h3 {
+      font-size: 24px;
+    }
+  }
+  @media (max-width: 576px) {
+    .main h1 {
+      font-size: 32px;
+    }
+  
+    .main h2 {
+      font-size: 16px;
+    }
+  
+    .main h3 {
+      font-size: 12px;
+    }
+  }
+  @media (max-width: 420px) {
+    .logo {
+      height: 20px;
+    }
+  }
+  @media (max-width: 292px) {
+    .logo {
+      align-self: center;
+    }
+  }
+  ::selection{
+    background-color: white;
+    color: cyan;
+}
+  
+  /*# sourceMappingURL=style.css.map */
+  

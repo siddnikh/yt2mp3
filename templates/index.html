@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block head %}
+<link rel="stylesheet" href="{{url_for('static', filename = 'css/index.css') }}">
+<title>yt2mp3 - Download MP3s from YouTube for free!</title>
+{% endblock %}
+
+{% block body %}
+<main class = "container main">
+    <h1>
+        Download MP3 Files for YouTube Videos for free!
+    </h1>
+    <h3>
+        All you have to do is, add the following snippet after "<b>youtube.com</b>" in your URL: <span>sn.herokuapp.com/mp3</span>
+    </h3>
+</main>
+{% endblock %}

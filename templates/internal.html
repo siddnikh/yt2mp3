@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% block head %}
+<link rel="stylesheet" href="{{url_for('static', filename = 'css/index.css') }}">
+<title>yt2mp3 - Download MP3s from YouTube for free!</title>
+{% endblock %}
+
+{% block body %}
+<main class = "container main">
+    <center>
+        <h1>
+            Looks like the application encountered an error!
+        </h1>
+        <h3>
+            The URL you provided is either of wrong format (it should be <span>youtubesn.herokuapp.com/mp3/watch?v=[weird shit]</span>) or of a private video, or doesn't exist, or it's audio track can't be extracted. Sorry (not sorry) for the inconvenience.
+        </h3>
+    </center>
+</main>
+{% endblock %}

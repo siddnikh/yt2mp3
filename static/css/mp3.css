@@ -1,0 +1,20 @@
+h1{
+    color: #00bc89;
+    font-family: "Fredoka One", cursive;
+}
+main p{
+    font-family: "Raleway", sans-serif;
+    color: #bab9b9;
+    font-size: 24px;
+}
+p img{
+    height: 15vw;
+}
+button a:visited{
+    text-decoration: none;
+    color: #00bc89
+}
+::selection{
+    background-color: white;
+    color: cyan;
+}

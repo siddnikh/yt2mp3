@@ -1,0 +1,17 @@
+h1{
+    color: #00bc89;
+    font-family: "Fredoka One", cursive;
+}
+h3{
+    font-family: "Raleway", sans-serif;
+    color: #bab9b9
+}
+main span{
+    font-family: 'Courier New', Courier, monospace;
+    color: greenyellow;
+    background-color: black;
+}
+::selection{
+    background-color: white;
+    color: cyan;
+}

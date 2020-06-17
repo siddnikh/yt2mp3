@@ -33,8 +33,6 @@ MarkupSafe==1.1.1
 moviepy==0.2.3.2
 mplayer.py==0.7.2.post1
 numpy==1.18.5
-oauth2==1.9.0.post1
-oauthlib==3.1.0
 Pillow==7.1.2
 pipenv==2020.6.2
 python-dateutil==2.8.1

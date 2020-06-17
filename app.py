@@ -37,3 +37,6 @@ def mp3(variable):
 def final():
     helper.download(session['title'])
     return send_file('{}.mp3'.format(session['title']), as_attachment = True, attachment_filename = '{}.mp3'.format(session['title']) )
+
+if __name__ == "__main__":
+    app.run()

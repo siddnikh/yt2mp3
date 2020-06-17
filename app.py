@@ -19,7 +19,6 @@ def home():
 @app.route('/mp3/<variable>')
 def mp3(variable):
     additive = (request.full_path).replace("/mp3/", "")
-    print (additive)
     session['url'] = "https://youtube.com/" + additive
     session['title'] = helper.retrieve_title(session['url'])
     

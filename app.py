@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, send_file, session
 import helper
 
 app = Flask(__name__)
-app.secret_key = 'q9ghevuqv'
+app.secret_key = 'dar1ng3r@mail2tor.com'
 
 @app.errorhandler(404)
 def not_found(error):

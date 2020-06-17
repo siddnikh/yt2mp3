@@ -1,15 +1,14 @@
 import requests
 from pytube import YouTube
+import imageio
+imageio.plugins.ffmpeg.download()
 import moviepy.editor as mp
 import os
 import datetime 
 import time
-import imageio
-
 #HELPER METHODS
 
 def retrieve_title(url):
-    imageio.plugins.ffmpeg.download()
     try:
         streams = YouTube(url)
     except:

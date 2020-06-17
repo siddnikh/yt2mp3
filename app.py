@@ -23,8 +23,8 @@ def mp3(variable):
     session['url'] = "https://youtube.com/" + additive
     session['title'] = helper.retrieve_title(session['url'])
     
-    #if session['title'] == 'Error Occurred':
-   #     return render_template('internal.html')
+    if session['title'] == 'Error Occurred':
+        return render_template('internal.html')
     
     while session['title'] == 'YouTube':
         session['title'] = helper.retrieve_title(session['url'])
@@ -36,5 +36,4 @@ def mp3(variable):
 @app.route('/download/')
 def final():
     helper.download(session['title'])
-    helper.remove(session['title'])
     return send_file('{}.mp3'.format(session['title']), as_attachment = True, attachment_filename = '{}.mp3'.format(session['title']) )
